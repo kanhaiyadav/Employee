@@ -105,7 +105,7 @@ employee-attrition-prediction/
 ├── app.py                        # Streamlit web application
 ├── attrition_model.pkl           # Trained model
 ├── WA_Fn-UseC_-HR-Employee-Attrition.csv  # Dataset
-├── logistic_reg_train.py         # Model training script
+├── logistic_reg_train.ipynb      # Model training notebook
 ├── requirements.txt              # Required packages
 ├── README.md                     # Project documentation
 ```
