@@ -239,6 +239,7 @@ if submit_button:
             st.write(f"**Suggestion:** {suggestion}")
         
         with res_col2:
+            plt.style.use("dark_background")
             fig, ax = plt.subplots(figsize=(8, 4))
             
             gauge_values = [probability, 1-probability]
@@ -277,6 +278,7 @@ if submit_button:
         
         factors_df = pd.DataFrame(contributing_factors)
         
+        plt.style.use("dark_background")
         fig, ax = plt.subplots(figsize=(10, 5))
         
         factors = factors_df["factor"].tolist()
